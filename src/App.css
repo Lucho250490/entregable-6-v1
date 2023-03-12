@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after,*::before {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin:0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+.cart {
+  background-color: red;
+}
+
+.App {
+  position: relative;
+}
+
+.cart {
+  background-color:blueviolet;
+  position: absolute;
+  z-index: 102;
+  top: 100px;
+  
+}
+
+.cart {
+  position: absolute;
+  width: 100px;
+  
+}
+
+.cartt {
+  background-color: red;
+}

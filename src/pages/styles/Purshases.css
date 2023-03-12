@@ -1,0 +1,46 @@
+.purchaces {
+  position: relative;
+  margin: none;
+  display: block;
+  
+}
+
+.purchaces__main {
+  margin: none;
+}
+
+.purchaces__section {
+  padding: 10px;
+  position: relative;
+  max-width: 1400px;
+}
+
+.purchaces__title-purchase {
+  position: relative;
+  margin-bottom:20px ;
+  
+}
+
+
+
+.purchaces__card{
+  display: grid;
+  grid-template-columns: repeat(0, minmax(280px, 1fr));
+  place-content: center;
+  
+  
+}
+
+/* .purchaces__card{
+  display: flex;
+  
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px,1fr));
+  margin: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%,0%);
+  
+} */
+

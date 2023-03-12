@@ -1,0 +1,156 @@
+.product {
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product.active {
+  opacity: 0.1;
+}
+
+
+.product__details-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  background-color: var(--primary);
+  font-size:28px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translateY(-50%);
+}
+
+.previus {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background-color: var(--primary);
+  font-size: 28px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translateY(-50%);
+}
+
+.product__details-text {
+  color: var(--dark-gray);
+  margin:  40px 0;
+}
+
+.product__details-titleSimilar {
+  margin: 20px;
+  color: var(--primary);
+  font-size: 20px;
+}
+
+
+.product__details-similarItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    justify-content: center;
+    grid-template-rows: auto;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product__details-imgContainer {
+  height: 380px;
+  overflow: hidden;
+  width: 300%;
+  display: flex;
+  gap:20px;
+  
+  
+}
+
+.product__details-imgContainer.ziro {
+  margin-left: 0%;
+}
+
+.product__details-imgContainer.one {
+  margin-left: -100%;
+}
+
+.product__details-imgContainer.two {
+  margin-left: -200%;
+}
+
+.product__details-img {
+  height: 100%;
+  width: 100%;
+}
+
+.product__details-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 40px;
+}
+
+.product__details-brand {
+  color: var(--gray);
+  font-size: 20px;
+}
+
+.product__details-title {
+  margin-left: 10px;
+  font-size: 24px;
+  margin: 5px 10px;
+}
+
+.product__details-quantityInter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 20px 0;
+}
+
+.product__details-priceTitle, .product__details-quantityTitle{
+  color: var(--gray);
+}
+
+
+.product__details-price {
+  margin-left: 10px;
+}
+
+.product__details-counter {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid var(--gray);
+  width: max-content;
+
+}
+
+.product__details-counter button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid var(--gray);
+  cursor: pointer;
+}
+
+.product__details-counter h4 {
+  padding: 5px 10px;
+
+}
+
+.product__details-btn {
+  width: 100%;
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+

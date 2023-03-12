@@ -1,0 +1,190 @@
+.purshaces {
+  position: relative;
+  overflow: hidden;
+  min-width: 150px;
+  margin: none;
+  padding: none;
+  
+  
+
+}
+
+.purshaces__article {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+}
+
+.purshaces__imgs {
+  position: relative;  
+  max-width: 100px;
+}
+
+.purshaces__img {
+  width:100px ;
+  height: 100px;
+}
+
+.purshaces__imgs img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.purshaces__date {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  min-width: 100px;
+}
+
+.purshaces__title {
+  width: 40%;
+  margin: 10px;
+}
+
+.purshaces__quantity {
+  border: 1px solid var(--gray);
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  display: grid;
+  place-content: center;
+ 
+}
+
+@media (max-width:500px){
+
+  .purshaces__article{
+    font-size: 10px;
+  }
+  .purshaces__title{
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .purshaces__date {
+    font-size: 10px;
+    min-width: 20px;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+    .purshaces__imgs {
+      position: relative;
+      max-width: 40px;
+    }
+  
+    .purshaces__img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .purshaces__imgs img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .purshaces__quantity {
+      width: 5px;
+      height: 5px;
+      padding: 7px;
+      font-size: 9px;
+    }
+
+}
+
+@media (max-width:650px){
+  .purshaces__article{
+    font-size: 11px;
+  }
+
+  .purshaces__date{
+    gap: 7px;
+  }
+}
+
+
+/* .purshaces__article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--gray);
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+  
+}
+ */
+/* .purshaces__imgs{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.purshaces__img{
+  width: 280px;
+  height: 250px;
+}
+
+.purshaces__img img{
+  object-fit:contain;
+  width: 100%;
+  height: 100%;
+}
+
+.purshaces__date {
+  position: relative;
+ 
+  
+
+}
+
+.purshaces__title{
+  object-fit: contain;
+  margin: 10px;
+  color: var(--gray);
+  height: 80px;
+  display: block;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+  width: 120%;
+  margin-left: -20px;
+}
+
+
+
+
+
+
+.line {
+  position: absolute;
+  margin-top: 20px;
+  color: black;
+  aspect-ratio: 1;
+}
+
+
+
+
+
+
+
+
+
+ */

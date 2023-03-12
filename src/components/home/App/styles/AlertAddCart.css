@@ -1,0 +1,35 @@
+
+.alertAddToCart  {
+  position: absolute;
+  margin-left: -120%;
+}
+
+.alertAddToCart.active{
+  position: fixed;
+  z-index: 100;
+  margin-left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+
+}
+
+.alertAddToCart__text {
+  background-color: var(--primary);
+  color: #fff;
+  width: max-content;
+  padding: 5px 10px ;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.home__form-filter{
+  margin-top: 20px;
+  
+}
+
+.home__form-filter-title{
+  margin-bottom: 20px;
+}
+

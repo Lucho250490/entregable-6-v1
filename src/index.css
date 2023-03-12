@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300&family=Yantramanav:wght@100;400;500&display=swap');
+
+
+
+:root {
+  --primary: #f85555;
+  --light-gray: #dcd9d9;
+  --gray: #c7c7c7;
+  --dark-gray: #4f4f4f;
+  --text-gray: #ababab;
+  --text-data: #d8f5fd;
+  --sing-up:#2fa8f8;
+  --ultra-ligth-gray:rgb(245, 244, 244);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-size: 'yamtramanav', sans-serif
+
+}
+
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3 , h4, h5, h6 p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,79 @@
+.article {
+  position: relative;
+  display: grid;
+  place-content: center;
+  border: 1px solid var(--gray);
+  padding: 20px;
+  border-radius: 15px;
+  
+  
+}
+
+.section-btns {
+  position: relative;
+  
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  top: 5px;
+  gap:10px;
+  
+}
+
+.btns button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+}
+
+.btns h4{
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-content: center;
+}
+
+.section-btns h3 {
+  margin-top: 20px;
+}
+
+.img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  
+}
+
+.img img {
+  margin: 20px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.section-price {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tr i {
+  color: var(--primary);
+  width: 40px;
+  
+}
+
+.tr:hover {
+  width: 20px;
+}
+
